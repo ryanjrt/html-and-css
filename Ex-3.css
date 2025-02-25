@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button {
+    background-image: linear-gradient(to right, red, yellow);
+    transition: 0.5s;
+    height: 90px;
+    width: 150px;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#button:hover {
+    background-image: linear-gradient(180deg, red, yellow);
+    scale: 2;
+    transform: translate(-50%, -50%)
+}
+
+table, th, td{
+    border: 1px solid black
+}
+
+th, td{
+    padding-right: 10px;
+}
+
+#Pricing, #Pricing td {
+    padding-left: 10px;
+}
+
